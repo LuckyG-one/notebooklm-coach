@@ -213,3 +213,19 @@ The resolver turns `[N]` markers in NotebookLM answers into clickable `[[Source#
 ## License
 
 MIT
+
+
+## Specialist Domain Profiles
+
+Before domain research, route to the matching profile and read its instructions:
+
+| Intent | Profile |
+|---|---|
+| recruitment, sourcing, interviewing, STAR, executive search, talent acquisition | `profiles/recruitment/SKILL.md` |
+| peptides, peptide safety/evidence/regulation | `profiles/peptides/SKILL.md` |
+| Huberman, health protocols based on Huberman Lab | `profiles/huberman-health/SKILL.md` |
+| investing, stocks, company research, valuation | `profiles/investing/SKILL.md` |
+| AI developments, models, agents, coding AI | `profiles/ai-intelligence/SKILL.md` |
+| AI video, Higgsfield, Seedance, Veo, Kling, Runway | `profiles/ai-video/SKILL.md` |
+
+Use `workflows/domain-research.md` for multi-source synthesis. The profile controls evidence weighting and answer format; the root skill continues to control ingestion, querying and citation resolution.
