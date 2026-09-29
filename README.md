@@ -146,3 +146,12 @@ Fixes that make it work as of mid-2026:
 ## License
 
 MIT — see [LICENSE](LICENSE). Adapted from [ArtemXTech/personal-os-skills](https://github.com/ArtemXTech/personal-os-skills).
+
+
+## Six specialist coaches
+
+This fork adds six domain profiles on top of the shared NotebookLM engine: **Recruitment Coach, Peptide Research, Huberman Health, Investing Research, AI Intelligence, and AI Video Lab**. They live under [`profiles/`](profiles/) and share the existing ingestion/citation code instead of duplicating it.
+
+The profiles deliberately use different evidence rules. Peptide/health research separates human, preclinical, regulatory, practitioner and anecdotal evidence; investing separates reported facts from theses and assumptions; AI and AI-video enforce freshness/version checks; recruitment distinguishes selection science from practitioner tactics.
+
+See [Domain Research Workflow](workflows/domain-research.md) for cross-notebook synthesis.
